@@ -409,7 +409,7 @@ body.clinic_version .first-section h2 {
     padding: 0;
     position: relative;
 }
-.icon-logo img {
+.latest_icon img {
     width: 60px;
 }	
 .heading h2::after {
