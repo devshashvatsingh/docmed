@@ -3,8 +3,12 @@
 
    <!-- Basic -->
    <style>
-
-   ul {
+   .socialmedia {
+     margin:0;
+     padding:0;
+     background: #dedede;
+   }
+   .socialmedia ul {
      position:absolute;
      top:50%;
      left:50%;
@@ -14,11 +18,11 @@
      display:flex;
    }
 
-   ul li {
+   .socialmedia ul li {
      list-style: none;
    }
 
-   ul li a {
+   .socialmedia ul li a {
      position: relative;
      width:60px;
      height:60px;
@@ -34,12 +38,12 @@
      transition: .5s;
    }
 
-   ul li a:hover {
+   .socialmedia ul li a:hover {
      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
      text-decoration:none;
    }
 
-   ul li a .fab {
+   .socialmedia ul li a .fab {
      widht: 100%;
      height:100%;
      display:block;
@@ -51,23 +55,23 @@
      transition: .5s;
    }
 
-   ul li:nth-child(1) a:hover .fab {
+   .socialmedia ul li:nth-child(1) a:hover .fab {
      color: #3b5998;
    }
 
-   ul li:nth-child(2) a:hover .fab {
+   .socialmedia ul li:nth-child(2) a:hover .fab {
      color: #00aced;
    }
 
-   ul li:nth-child(3) a:hover .fab {
+   .socialmedia ul li:nth-child(3) a:hover .fab {
      color: #dd4b39;
    }
 
-   ul li:nth-child(4) a:hover .fab {
+   .socialmedia ul li:nth-child(4) a:hover .fab {
      color: #007bb6;
    }
 
-   ul li:nth-child(5) a:hover .fab {
+   .socialmedia ul li:nth-child(5) a:hover .fab {
      color: #e4405f;
    }
    </style>
@@ -801,7 +805,7 @@ and equipments to serve you promptly.</p>
                <h2>Get in Touch</h2>
             </div>
               <br>
-<div class="container">
+<div class="socialmedia">
   <ul>
     <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
     <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -812,10 +816,7 @@ and equipments to serve you promptly.</p>
 </div>
               <br>
          </div>
-         <div class="row">
-           <a href="#" class="fa fa-facebook"></a>
-           <a href="#" class="fa fa-twitter"></a>
-         </div>
+
          <div class="contact-section">
             <div class="form-contant">
                <form id="ajax-contact" action="assets/mailer.php" method="post">
